@@ -7,7 +7,7 @@ export default function PrefetchPage() {
   );
 
   return (
-    <ul className="flex flex-row gap-4 flex-wrap">
+    <ul className="flex flex-row flex-wrap">
       {slugs.map((slug) => (
         <li className="basis-1/4" key={slug}>
           <Link href={`/prefetch-auto/${slug}`}>{slug}</Link>
