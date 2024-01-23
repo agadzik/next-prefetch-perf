@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "app/prefetch-auto/**/*": {
+      "maxDuration": 15
+    },
+    "app/prefetch-true/**/*": {
+      "maxDuration": 16
+    },
+    "app/prefetch-hover/**/*": {
+      "maxDuration": 17
+    }
+  }
+}
