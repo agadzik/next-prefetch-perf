@@ -1,14 +1,2 @@
-interface PageProps {
-  params: {
-    slug: string;
-  };
-}
-
+export { DynamicPage as default } from "@/app/components/page";
 export const dynamic = "force-dynamic";
-
-export default async function DynamicPage({ params }: PageProps) {
-  // simulate a slow page load
-  await new Promise((resolve) => setTimeout(resolve, 1000));
-
-  return <div>{params.slug}</div>;
-}
