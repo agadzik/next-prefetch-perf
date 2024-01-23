@@ -3,11 +3,14 @@
     "app/prefetch-auto/**/*": {
       "maxDuration": 10
     },
-    "app/prefetch-true/**/*": {
+    "app/prefetch-false/**/*": {
       "maxDuration": 9
     },
-    "app/prefetch-hover/**/*": {
+    "app/prefetch-true/**/*": {
       "maxDuration": 8
+    },
+    "app/prefetch-hover/**/*": {
+      "maxDuration": 7
     }
   }
 }
